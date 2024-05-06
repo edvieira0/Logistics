@@ -1,2 +1,0 @@
-login = 'something'
-password = 'something'
