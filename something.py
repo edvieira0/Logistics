@@ -1,0 +1,2 @@
+login = 'something'
+password = 'something'
