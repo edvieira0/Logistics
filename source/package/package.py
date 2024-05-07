@@ -1,14 +1,18 @@
 class Package:
     def __init__(self, package_id):
+        from scts import management_url
         self.package_id = package_id
         self.export_data = True
+        self.url = management_url
 
-    def get_json(self, browser, url):
-        
+    def get_json(self, browser):
+        """
+        Função com o objetivo de varrer a página em busca de um json contendo informações.
+        """
         import re
         import json
 
-        browser.driver.get(f'{url}{self.package_id}')
+        browser.driver.get(f'{self.url}{self.package_id}')
         page_content = browser.driver.page_source
 
         if page_content:
