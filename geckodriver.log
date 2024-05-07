@@ -39,3 +39,58 @@ b@https://www.google.com/xjs/_/js/k=xjs.hd.en.kpRqsOe5ROo.O/am=AAAAAAAAAAAAAAAAA
 
 1715108828867	Marionette	INFO	Stopped listening on port 63651
 Dynamically enable window occlusion 1
+1715112452743	geckodriver	INFO	Listening on 127.0.0.1:57285
+1715112455802	mozrunner::runner	INFO	Running command: "C:\\Users\\eduar\\.cache\\selenium\\firefox\\win64\\125.0.3\\firefox.exe" "--marionette" "--remote-debuggin ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\eduar\\AppData\\Local\\Temp\\rust_mozprofileDjIHut"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1715112456058	Marionette	INFO	Marionette enabled
+1715112456125	Marionette	INFO	Listening on port 57304
+WebDriver BiDi listening on ws://127.0.0.1:57286
+Read port: 57304
+1715112456991	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57286/devtools/browser/8210d72f-56d6-4fae-b9ea-8b993307cee6
+1715112462553	Marionette	INFO	Stopped listening on port 57304
+Dynamically enable window occlusion 1
+1715112506572	geckodriver	INFO	Listening on 127.0.0.1:57429
+1715112509624	mozrunner::runner	INFO	Running command: "C:\\Users\\eduar\\.cache\\selenium\\firefox\\win64\\125.0.3\\firefox.exe" "--marionette" "--remote-debuggin ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\eduar\\AppData\\Local\\Temp\\rust_mozprofiletohAcK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1715112510338	Marionette	INFO	Marionette enabled
+1715112510404	Marionette	INFO	Listening on port 57443
+WebDriver BiDi listening on ws://127.0.0.1:57430
+DevTools listening on ws://127.0.0.1:57430/devtools/browser/ced2cade-2c92-4dfd-b8dc-06ef2adaa947
+Read port: 57443
+1715112513135	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1715112514989	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1715112541149	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://www.youtube.com/s/desktop/661c298b/jsbin/desktop_polymer.vflset/desktop_polymer.js, line 2645: Script terminated by timeout at:
+$p.prototype.transition@https://www.youtube.com/s/desktop/661c298b/jsbin/desktop_polymer.vflset/desktop_polymer.js:2645:33
+kM/<@https://www.youtube.com/s/desktop/661c298b/jsbin/desktop_polymer.vflset/desktop_polymer.js:10294:114
+
+1715112600399	Marionette	INFO	Stopped listening on port 57443
+Dynamically enable window occlusion 1
+1715112615381	geckodriver	INFO	Listening on 127.0.0.1:57710
+1715112618460	mozrunner::runner	INFO	Running command: "C:\\Users\\eduar\\.cache\\selenium\\firefox\\win64\\125.0.3\\firefox.exe" "--marionette" "--remote-debuggin ... 1" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\eduar\\AppData\\Local\\Temp\\rust_mozprofilecfn8Fp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1715112619042	Marionette	INFO	Marionette enabled
+1715112619103	Marionette	INFO	Listening on port 57728
+WebDriver BiDi listening on ws://127.0.0.1:57711
+Read port: 57728
+1715112619214	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57711/devtools/browser/e6e171e6-5d6f-4541-9b03-4d0b029ebd22
+1715112623904	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[Child 17036, MediaDecoderStateMachine #1] WARNING: Decoder=1fbb6491c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 17036, MediaDecoderStateMachine #1] WARNING: Decoder=1fbb6491c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:167
+[Child 17036, MediaDecoderStateMachine #1] WARNING: Decoder=1fbb6493400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 17036, MediaDecoderStateMachine #1] WARNING: Decoder=1fbb6493400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:167
+1715112649344	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://www.youtube.com/s/desktop/e1c166c7/jsbin/desktop_polymer.vflset/desktop_polymer.js, line 2645: Script terminated by timeout at:
+$p.prototype.transition@https://www.youtube.com/s/desktop/e1c166c7/jsbin/desktop_polymer.vflset/desktop_polymer.js:2645:33
+kM/<@https://www.youtube.com/s/desktop/e1c166c7/jsbin/desktop_polymer.vflset/desktop_polymer.js:10294:114
+
+1715112700422	Marionette	INFO	Stopped listening on port 57728
+Dynamically enable window occlusion 1
