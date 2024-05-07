@@ -1,7 +1,7 @@
 class Postsql:
     def __init__(self):
         import psycopg2
-        from data import scts
+        from . import scts
         self.conn = psycopg2.connect(
             dbname = scts.dbname,
             user = scts.user,
