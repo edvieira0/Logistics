@@ -1,13 +1,14 @@
 class Package:
-    def __init__(self):
-        pass
+    def __init__(self, package_id):
+        self.package_id = package_id
+        self.export_data = True
 
-    def get_json(self, browser, url, id_json):
+    def get_json(self, browser, url):
         
         import re
         import json
 
-        browser.driver.get(f'{url}{id_json}')
+        browser.driver.get(f'{url}{self.package_id}')
         page_content = browser.driver.page_source
 
         if page_content:
@@ -16,14 +17,15 @@ class Package:
             if match:
                 json_data = match.group(1)
 
-                #export json files to data/json_files
-                with open(f'data/json_files/{id_json}.json', 'w', encoding='utf-8') as json_file:
-                    json_file.write(json_data)
+                if self.export_data == True:
+                    #export json files to data/json_files
+                    with open(f'data/json_files/{self.package_id}.json', 'w', encoding='utf-8') as json_file:
+                        json_file.write(json_data)
+
             return json.loads(json_data)
         else:
             print(f'Error, page content not found.')
             raise FileNotFoundError
     
-    def get_info(self, get_json):
-        if get_json:
-            ...
+    def get_info(self):
+        ...
