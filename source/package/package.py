@@ -26,6 +26,12 @@ class Package:
         else:
             print(f'Error, page content not found.')
             raise FileNotFoundError
-    
+
+    def change_status(self):
+        ...
+
     def get_info(self):
+        ...
+    
+    def update_database(self):
         ...
